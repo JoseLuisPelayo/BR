@@ -11,7 +11,7 @@ Este repositorio contiene el código fuente de una página web corporativa dise�
 - Contenido:
   - Logotipo de la serie (`logo.png`) con un tamaño de 200x200 píxeles.
   - Texto destacado de la serie: 
-    *"I did it for me. I liked it. I was good at it. And, I was really... I was alive."*
+    * "I did it for me. I liked it. I was good at it. And, I was really... I was alive." *
   - Imagen (`poster.jpg`) con:
     - Tamaño: 700x300 píxeles.
     - Borde: 10px `outset`, color marrón.
