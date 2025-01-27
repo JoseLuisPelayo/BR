@@ -13,6 +13,7 @@
     background: url(../assets/img/fondo.jpg);
     background-size: cover;
     text-align: center;
+    font-family: breaking-bad;
 }
 
 .logo {
@@ -32,4 +33,9 @@
     height: 300px;
     outline: 10px solid brown;
     border-radius: 22px;
+}
+
+@font-face {
+    font-family: breaking-bad;
+    src: url(../assets/fonts/Breaking\ Bad.ttf);
 }
