@@ -80,6 +80,20 @@
     padding: .2rem;
 }
 
+.form-controls {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.form-btn {
+    background-color: brown;
+    color: aliceblue;
+    font-weight: bold;
+    width: 100%;
+}
+
 /* TABLA */
 
 .table-page {
@@ -87,11 +101,6 @@
     text-align: center;
 }
 
-.form-btn {
-    background-color: brown;
-    color: aliceblue;
-    font-weight: bold;
-}
 
 .xl-text {
 font-size: 14px;
