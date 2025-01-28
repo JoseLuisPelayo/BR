@@ -51,6 +51,22 @@ Este repositorio contiene el código fuente de una página web corporativa dise�
 
 ## 🚀 **Ejecución del Proyecto**
 1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/breaking-bad-fan-page.git
+  ```git clone https://github.com/tu-usuario/breaking-bad-fan-page.git```
+2. Accede al directorio del proyecto: 
+    ```cd breaking-bad-fan-page```
+3. Abre el archivo index.html en tu navegador.
 
+
+## 🌐 Enlace al Proyecto Publicado
+Puedes acceder a la página web desde el siguiente enlace:
+[Breaking Bad Fan Page](https://br-josepingps-projects.vercel.app/)
+
+## 🛠️ Tecnologías Utilizadas
+HTML5
+CSS3
+Vercel (para publicación)
+
+## 📧 Contacto
+Si tienes alguna duda o sugerencia, no dudes en contactarme:
+Autor: Jose Luis García Pelayo
+Correo electrónico: garciapelaypjoseluis22@gmail.com
