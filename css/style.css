@@ -17,6 +17,7 @@
     background-size: cover;
     text-align: center;
     font-family: breaking-bad;
+    color: white;
 }
 
 
@@ -40,8 +41,13 @@
 .poster {
     width: 700px;
     height: 300px;
-    outline: 10px solid brown;
+    border: 10px solid brown;
+    border-style: outset;
     border-radius: 22px;
+}
+
+area {
+    cursor: pointer;
 }
 
 /* FORMULARIO */
@@ -120,15 +126,16 @@ table {
     font-size: 10px;
 }
 
-td{
-    width: 68px;
-    height: 68px;
+td {
+    width: 80px;
+    height: 80px;
 }
 
 .bg-img1 {
     background: url("../assets/img/Tabla Periódica/hankschrader.png");
     background-repeat: no-repeat;
     background-size: cover; 
+    background-position: center;
 }
 
 .color1 {
