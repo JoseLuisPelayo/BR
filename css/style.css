@@ -18,6 +18,7 @@
     text-align: center;
     font-family: breaking-bad;
     color: white;
+    color: white;
 }
 
 
@@ -43,7 +44,13 @@
     height: 300px;
     border: 10px solid brown;
     border-style: outset;
+    border: 10px solid brown;
+    border-style: outset;
     border-radius: 22px;
+}
+
+area {
+    cursor: pointer;
 }
 
 area {
@@ -112,6 +119,7 @@ area {
 .xl-text {
 font-size: 14px;
 font-weight: bold;
+padding: 10px 0;
 }
 
 table {
