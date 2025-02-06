@@ -63,6 +63,7 @@ area {
     background: url(../assets/img/fondo.jpg);
     background-size: cover;
     font-family: helvetica, arial, sans-serif;
+    color: whitesmoke;
 }
 
 .form form {
@@ -70,13 +71,16 @@ area {
     flex-direction: column;
     max-width: 30rem;
     margin: auto;
-    gap: .2rem;
+    background-color: #2b2c24bb;
+    padding: 1rem;
 }
 
 .form form fieldset {
     display: flex;
     flex-direction: column;
-    gap: .2rem
+    gap: .2rem;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
 }
 
 .form form input {
@@ -87,11 +91,42 @@ area {
 .form-birthdate {
     display: flex;
     margin: .3rem;
-    gap: .2rem;
+    gap: .5rem;
 }
 
-.form form select {
+.form-characters {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+.form-characters label {
+    flex-grow: 1;
+}
+
+.form-characters select {
+    flex-grow: 999;
+    padding: .3rem;
+}
+
+.form-coment {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+.form-coment textarea {
     padding: .2rem;
+    resize: none;
+    overflow: scroll auto visible;
+    min-height: 7rem;
+}
+
+#file {
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .form-controls {
@@ -135,8 +170,8 @@ table {
 }
 
 td {
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
 }
 
 .bg-img1 {

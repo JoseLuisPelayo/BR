@@ -38,23 +38,25 @@
                     <label for="birthdate">Fnac </label><input type="date" name="birthdate" id="birthdate">
                 </div>
             </fieldset>
+            <section class="form-characters">
+                <label for="character">Personaje</label>
+                <select name="character" id="character">
+                    <option value="jp">Jessie Pinkman</option>
+                    <option value="ww">Walter White</option>
+                    <option value="sg">Saul Goodman</option>
+                    <option value="gf">Gustavo Fring</option>
+                    <option value="ph">Pollos Hermanos</option>
+                    <option value="ot">Otros personajes</option>
+                </select>
+            </section>
+            <section class="form-coment">
+                <label for="coment">
+                    Comentarios
+                </label>
+                <textarea name="coment" id="coment"></textarea>
+            </section>
 
-            <label for="character">Personaje</label>
-            <select name="character" id="character">
-                <option value="jp">Jessie Pinkman</option>
-                <option value="ww">Walter White</option>
-                <option value="sg">Saul Goodman</option>
-                <option value="gf">Gustavo Fring</option>
-                <option value="ph">Pollos Hermanos</option>
-                <option value="ot">Otros personajes</option>
-            </select>
-
-            <label for="coment">
-                Comentarios
-            </label>
-            <textarea name="coment" id="coment"></textarea>
-
-            <input type="file">
+            <input type="file" name="file" id="file">
             <div class="form-controls">
                 <input type="submit" value="ENVIAR" class="form-btn">
                 <input type="reset" class="form-btn" value="RESET">
