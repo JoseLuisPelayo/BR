@@ -14,14 +14,7 @@
 
 .index {
     padding-top: 300px;
-    background-image: 
-        url(../assets/img/logo.PNG),
-        url(../assets/img/fondo.jpg);
-    background-repeat: no-repeat no-repeat;
-    background-position: center 1rem, center;
-    background-size: 200px, cover;
-    padding-top: 300px;
-    background-image: 
+    background-image:
         url(../assets/img/logo.PNG),
         url(../assets/img/fondo.jpg);
     background-repeat: no-repeat no-repeat;
@@ -49,13 +42,7 @@
     height: 300px;
     border: 10px solid brown;
     border-style: outset;
-    border: 10px solid brown;
-    border-style: outset;
     border-radius: 22px;
-}
-
-area {
-    cursor: pointer;
 }
 
 area {
@@ -150,13 +137,8 @@ area {
 
 /* TABLA */
 .table-page {
-    background-color: #0c3e11;
     text-align: center;
     font-family: helvetica, arial, sans-serif;
-    background: #0c3e11 url(../assets/img/cabecera.png);
-    background-repeat: no-repeat;
-    background-position: center top 2rem;
-    padding-top: 250px;
     background: #0c3e11 url(../assets/img/cabecera.png);
     background-repeat: no-repeat;
     background-position: center top 2rem;
@@ -172,13 +154,6 @@ table {
     color: #2b2c24;
 }
 
-.walterwhite {
-    background: url('../assets/img/Tabla Periódica/walterwhite.png');
-    background-repeat: no-repeat;
-    background-position: center 5px;
-    padding-top: 4.5rem;
-}
-
 .info {
     display: flex;
     flex-direction: column;
@@ -204,25 +179,6 @@ table {
     background-repeat: no-repeat;
     background-position: center 5px;
     padding-top: 4.5rem;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    padding: 5px 0px;
-    justify-content: space-between;
-    width: 75px;
-    height: 77px;
-}
-
-.t-name {
-    padding: 0px 2px;
-    width: 100%;
-}
-
-.xl-text {
-    font-size: 40px;
-    font-weight: bold;
 }
 
 .xs-text {
@@ -341,115 +297,6 @@ table {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
-.hc {
-    background: url("../assets/img/Tabla Periódica/hectorsalamanca.png");
-}
-
-.ts {
-    background: url("../assets/img/Tabla Periódica/tucosalamanca.png");
-}
-
-.gf {
-    background: url("../assets/img/Tabla Periódica/gustavofrink.png");
-}
-
-.sw {
-    background: url("../assets/img/Tabla Periódica/skylerwhite.png");    
-}
-
-.sa {
-    background: url("../assets/img/Tabla Periódica/saulgoodman.png");
-}
-
-.jp {
-    background: url("../assets/img/Tabla Periódica/jessiepinkman.png");
-}
-
-.gb {
-    background: url("../assets/img/Tabla Periódica/gale.png");
-}
-
-.ms {
-    background: url("../assets/img/Tabla Periódica/marieschrader.png");
-}
-
-.bd {
-    background: url("../assets/img/Tabla Periódica/badger.png");
-}
-
-.me {
-    background: url("../assets/img/Tabla Periódica/mike.png");
-}
-
-.w-img {
-    background-repeat: no-repeat;
-    background-position: center bottom 10px;
-    padding-bottom: 5.5rem;
-    background-size: 65px 77px;
-}
-
-
-.bus {
-    background: url("../assets/img/Tabla Periódica/bus.png");
-    background-size: 98% auto;
-}
-
-.pistol {
-    background: url("../assets/img/Tabla Periódica/pistola.png");
-    background-size: 102% auto;
-}
-
-.potion {
-    background: url("../assets/img/Tabla Periódica/pocima.png");
-    background-size: 80% auto;
-}
-
-.movile {
-    background: url("../assets/img/Tabla Periódica/movil.png");
-    background-size: 90% auto;
-}
-
-.fly {
-    background: url("../assets/img/Tabla Periódica/mosca.png");
-    background-size: 95% auto;
-}
-
-.crystal {
-    background: url("../assets/img/Tabla Periódica/cristal.png");
-    background-size: 65% auto;
-}
-
-.pizza {
-    background: url("../assets/img/Tabla Periódica/pizza.png");
-    background-size: 90% auto;
-}
-
-.boxers {
-    background: url("../assets/img/Tabla Periódica/calzoncillos.png");
-    background-size: 90% auto;
-}
-
-.mask {
-    background: url("../assets/img/Tabla Periódica/mascara.png");
-    background-size: 85% auto;
-}
-
-.plate {
-    background: url("../assets/img/Tabla Periódica/plato.png");
-    background-size: 85% auto;
-}
-
-
-
-.table2 td {
-    width: 75px;
-    height: 77px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 
 .color1 {
     background-color: #b5dc1c;
